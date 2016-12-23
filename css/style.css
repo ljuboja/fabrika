@@ -1,0 +1,170 @@
+@import url("https://dl.dropboxusercontent.com/u/2821967/fonts/proxima-nova.css");
+@media (min-width: 500px) {
+  .col-sm-6 {
+    width: 50%;
+  }
+}
+html, body {
+  height: 100%;
+  min-height: 18em;
+}
+
+.container-fab {
+  background-image: url("../images/fabrika-splash.jpg");
+  background-size: cover;
+  -webkit-background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center center;
+  height: 100%;
+  width: 100%;
+  position: relative;
+  z-index: 2;
+}
+
+.container-fab:after {
+  content: "";
+    background: url("../images/pattern.png") repeat;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    position: absolute;
+    z-index: -1;
+}
+
+
+.split-pane {
+  padding-top: 1em;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center center;
+  // min-height: 9em;
+  font-size: 2em;
+  color: white;
+  font-family: "proxima-bold";
+  m
+}
+.split-pane:first-child {
+  margin-top: 80px;
+}
+@media(min-width: 768px) {
+  .split-pane {
+    padding-top: 2em;
+    height: 100%;
+  }
+  .split-pane > div {
+    position: relative;
+    top: 50%;
+    -webkit-transform: translateY(-50%);
+    -ms-transform: translateY(-50%);
+    transform: translateY(-50%);
+    text-align: center;
+  }
+  .split-pane:first-child {
+    margin-top: 0;
+  }
+}
+
+.split-pane  .text-content {
+  line-height: 1.6em;
+  margin-bottom: 1em;
+}
+@media(min-width: 768px) {
+     .split-pane  .text-content {
+         padding: 15px 35px 0 35px;
+     }
+     .split-pane > div .text-content .big {
+  font-size: 2em;
+}
+  }
+.split-pane > div .text-content .big {
+  font-size: 1.5em;
+}
+
+.split-pane > div .text-content p {
+  font-size: 16px;
+  line-height: 1.6em;
+  margin-bottom: 1em;
+}
+.split-pane > div img {
+  height: 1.3em;
+}
+@media (max-width: 500px) {
+  .split-pane > div img {
+    display:none;
+  }
+}
+
+
+
+#split-pane-or {
+  font-size: 2em;
+  color: white;
+  font-family: "proxima-bold";
+  text-align: center;
+  width: 100%;
+  position: absolute;
+  top: 50%;
+  -webkit-transform: translateY(-50%);
+  -ms-transform: translateY(-50%);
+  transform: translateY(-50%);
+}
+@media (max-width: 925px) {
+  #split-pane-or {
+    top:15%;
+  }
+}
+#split-pane-or > div img {
+  height: 2.5em;
+}
+@media (max-width: 500px) {
+  #split-pane-or {
+    position: absolute;
+    top: 50px;
+  }
+  #split-pane-or > div img {
+    height:2em;
+  }
+}
+@media(min-width: 500px) {
+  #split-pane-or {
+    font-size: 3em;
+  }
+}
+.big {
+  font-size: 2em;
+}
+
+
+
+.split-pane button, .split-pane a.button {
+  font-family: "proxima-regular";
+  background: none;
+  border: 1px solid white;
+  -moz-border-radius: 5px;
+  -webkit-border-radius: 5px;
+  border-radius: 5px;
+  width: 15em;
+  padding: 0.7em;
+  font-size: 0.5em;
+  -moz-transition: all 0.2s ease-out;
+  -o-transition: all 0.2s ease-out;
+  -webkit-transition: all 0.2s ease-out;
+  transition: all 0.2s ease-out;
+  text-decoration: none;
+  color: white;
+  display: inline-block;
+  cursor: pointer;
+}
+.split-pane button:hover, .split-pane a.button:hover {
+  text-decoration: none;
+  background-color: white;
+  border-color: white;
+  cursor: pointer;
+}
+.uiux-side.split-pane button:hover, .split-pane a.button:hover {
+  color: violet;
+}
+.frontend-side.split-pane button:hover, .split-pane a.button:hover {
+  color: blue;
+}
