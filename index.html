@@ -5,39 +5,59 @@
 	<title>fabrika</title>
 	<meta name="description" content="">
 	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<link rel="stylesheet" href="css/normalize.css">
 	<link rel="stylesheet" href="css/style.css">
 	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/3.3.7/css/bootstrap.min.css">
+
 </head>
 <body>
 
 <div class="container-fab">
 	<div class='split-pane col-xs-12 col-sm-6'>
+	<div>
+	<a href="http://www.fabrika.org.rs/coworking" title="Visit coworking ...">
 	  <div class="top-text">
 	    <div class='text-content'>
-	      <div class='big'>coworking</div>
-	      <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Neque iusto assumenda officiis sunt quisquam.</p>
+	      <div class="big">coworking</div>
+	      <p>community and shared office space for location independent professionals</p>
 	    </div>
 	  </div>
-    </div>
-
-
+	  </a>
+	  </div>
+	  </div>
+  
 
 	<div class='split-pane backtoblack col-xs-12 col-sm-6'>
 	  <div>
+          <a href="http://www.fabrika.org.rs/social-accelerator">
+	  <div class="top-text">
 	    <div class='text-content'>
 	      <div class='big'>social accelerator</div>
-	      <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sapiente enim veritatis excepturi id eum quod non velit atque voluptatem optio voluptates.</p>
+	      <p>office space, mentorship and financial assistance for local teams with ideas of great social value</p>
 	    </div>
+	    </div>
+	    </a>
 	  </div>
 	</div>
 
 
 	<div id='split-pane-or'>
 	  <div>
-	    <img src='images/logo-fabrika.png'>
+	    <img src='images/logo-fabrika.png' title="fabrika website">
 	  </div>
 	</div>
 
 </div>
 </body>
+<script src="https://code.jquery.com/jquery-1.2.min.js"></script>
+<script>
+	$('.split-pane').hover(
+	       function(){ $(this).addClass('backtoblack') },
+	       function(){ $(this).removeClass('backtoblack') }
+	)
+	// $('.split-pane-or').hover(
+	       
+	//        function(){ $('split-pane').removeClass('backtoblack') }
+	// )
+</script>
 </html>
