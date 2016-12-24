@@ -47,7 +47,6 @@ html, body {
   font-family: 'Montserrat';
   font-weight: bold;
   // z-index: 2;
-  cursor: pointer;
 }
 
 .split-pane a {
@@ -59,6 +58,8 @@ html, body {
   text-decoration: none;
   color: #00aeff;
 }
+
+
 .backtoblack {
   background:rgba(0,0,0,.5);
   z-index: auto;
