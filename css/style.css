@@ -1,5 +1,5 @@
 @import url('https://fonts.googleapis.com/css?family=Montserrat:400,700');
-@import url('https://fonts.googleapis.com/css?family=Lato');
+// @import url('https://fonts.googleapis.com/css?family=Lato');
 @media (min-width: 500px) {
   .col-sm-6 {
     width: 50%;
@@ -11,7 +11,7 @@ html, body {
 }
 
 .container-fab {
-  background-image: url("../images/fabrika-splash.jpg");
+  background-image: url("http://res.cloudinary.com/dre6hqdpy/image/upload/fl_force_strip.strip_profile,q_auto/v1482682212/fabrika-splash_pz9xca.jpg");
   background-size: cover;
   -webkit-background-size: cover;
   background-repeat: no-repeat;
@@ -61,7 +61,7 @@ html, body {
 
 
 .backtoblack {
-  background:rgba(0,0,0,.5);
+  background:rgba(0,0,0,.3);
   z-index: auto;
 }
 
